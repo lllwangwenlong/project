@@ -42,6 +42,11 @@ Page({
       url: '/pages/collectlist/collectlist',
     })
   },
+  jumpTodo(){
+    wx.navigateTo({
+      url: '/pages/todo/todo'
+    })
+  },
   onShow(){
     this.getData()
   },

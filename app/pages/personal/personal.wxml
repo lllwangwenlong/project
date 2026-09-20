@@ -22,4 +22,7 @@
       </view>
     </view>
   </view>
+  <view class='todo-entry' bindtap='jumpTodo'>
+    <text>待办事项</text>
+  </view>
 </view>

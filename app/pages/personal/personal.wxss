@@ -69,3 +69,10 @@
   align-items: center;
   color: #fff
 }
+.todo-entry{
+  background-color:#1984d1;
+  color:#fff;
+  text-align:center;
+  padding:20rpx 0;
+  margin-top:20rpx;
+}
