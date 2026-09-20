@@ -1,0 +1,15 @@
+<view class="todo-page">
+  <view class="todo-form">
+    <view class="form-title">新增待办事项</view>
+    <input class="todo-input" placeholder="事项名称" value="{{name}}" bindinput="onNameInput" />
+    <textarea class="todo-textarea" placeholder="事项描述" value="{{desc}}" bindinput="onDescInput" />
+    <button class="todo-add" type="primary" bindtap="addTodo">新增</button>
+  </view>
+  <view class="todo-list" wx:if="{{todoList.length}}">
+    <view class="todo-item" wx:for="{{todoList}}" wx:key="id">
+      <view class="todo-name">{{item.name}}</view>
+      <view class="todo-desc" wx:if="{{item.desc}}">{{item.desc}}</view>
+    </view>
+  </view>
+  <view class="todo-empty" wx:else>暂无待办事项</view>
+</view>

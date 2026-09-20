@@ -6,7 +6,8 @@
     "pages/articals/articals",
     "pages/mystudy/mystudy",
     "pages/personal/personal",
-    "pages/collectlist/collectlist"
+    "pages/collectlist/collectlist",
+    "pages/todo/todo"
   ],
   "window": {
     "backgroundTextStyle": "light",
